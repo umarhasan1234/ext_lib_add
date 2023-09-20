@@ -21,6 +21,7 @@
 			<groupId>com.demo</groupId>
 	<artifactId>ikfa</artifactId>
 	<version>0.0.1</version>
+	<scope>system</scope>
 	<systemPath>${project.basedir}\src\libs\ikfa-0.0.1.jar</systemPath>
 		</dependency>
 
