@@ -3,7 +3,6 @@ package controller;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -19,7 +18,7 @@ import in.demo.service.UserService;
 
 @RestController
 @RequestMapping("/vpt/user")
-public class UserController {
+public class UserController<Umar> {
 	
 	@Autowired
 	private UserService userService;
@@ -41,7 +40,7 @@ public class UserController {
 		return "update successfull";
 	}
 	
-	Umar u=new Umar();
+	
 	
 
 }

@@ -10,14 +10,20 @@
 	</parent>
 	<groupId>in.demo</groupId>
 	<artifactId>DemoApp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>DemoApp</name>
 	<description>Demo app</description>
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 	<dependencies>
-		
+			<dependency>
+			<groupId>com.demo</groupId>
+	<artifactId>ikfa</artifactId>
+	<version>0.0.1</version>
+	<systemPath>${project.basedir}\src\libs\ikfa-0.0.1.jar</systemPath>
+		</dependency>
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -32,12 +38,7 @@
 			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-		<dependency>
-			<groupId>com.demo</groupId>
-			<artifactId>ikfa</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<systemPath>${project.basedir}libs/ikfa-0.0.1-SNAPSHOT.jar.original</systemPath>
-		</dependency>
+	
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
